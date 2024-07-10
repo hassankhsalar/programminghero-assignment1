@@ -273,3 +273,147 @@ text-align: center;
     margin-top: 20px;
 
 }
+
+/* form 4 styles */
+
+.form-4{
+    margin-top: 181px;
+    margin-left: 250px;
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-4-title {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.form-4-description{
+    padding: 32px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.skill{
+    margin-top: 35px;
+    padding: 40px;
+    width: 364px;
+    height: 180px;
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+.skill a{
+    margin-top: 20px;
+}
+
+.skill-title{
+    padding-top: 20px;
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+}
+
+.skill-description{
+    padding: 8px 0px 20px 0px;
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.skill-row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* about styles */
+.about{
+    margin-top: 150px;
+    margin-left: 250px;
+    background-image: url(../images/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 16px;
+    
+}
+
+.about-top{
+    
+    text-align: center;
+    
+}
+
+.about-header{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.about-description{
+    color: rgba(255, 255, 255, 0.7);
+    padding-top: 22px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.input-field{
+    text-align: center;
+}
+
+#text {
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 548px;
+    height: 57px;
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.about-submit{
+    width: 120px;
+    height: 58px;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.footer1{
+    margin:114px 0px 32px 235px;
+    /* margin-top: 114px;
+    margin-left: 235px; */
+
+    width: 1400px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 600px;
+}
+
+.footer-title{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
