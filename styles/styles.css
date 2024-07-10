@@ -5,6 +5,10 @@
     margin: 0px 0px;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: "Azeret Mono", monospace;
 }
@@ -12,8 +16,8 @@ body{
 /* banner styles */
 
 .banner-container{
-    /* width: 1440px;
-    height: 652px; */
+     /* width: 1440px; */
+    height: 660px;
     /* border: solid red; */
     background-image: url(../images/Hero-bg.png);
     background-repeat: no-repeat;
@@ -82,7 +86,7 @@ text-align: center;
     height: 1395px; */
     
    margin: 0 auto;
-   margin-left: 150px;
+   margin-left: 250px;
    margin-right: 150px;
    margin-top: 74px;
    height: 1395px;
@@ -147,11 +151,14 @@ text-align: center;
 .form-point-1{
     width: 1400px;
     /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
 }
 
 .form-point-1-text { 
 
     /* margin-right: 500px; */
+    width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -182,11 +189,13 @@ text-align: center;
 .form-point-2-text { 
 
     /* margin-right: 500px; */
+    width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: end;
 }
+
 
 .form-point-2-text h4{
     padding: 48px 0px 0px 0px;
@@ -194,13 +203,7 @@ text-align: center;
 }
 
 .form-point-2-text p{
-    text-align: right;
-}
-
-.form-point-2-image{
-    
-    padding: 48px 0px 0px 0px;
-
+    text-align: left;
 }
 
 .form-point-2-image{
@@ -220,6 +223,7 @@ text-align: center;
 .form-point-3-text { 
 
     /* margin-right: 500px; */
+    width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
