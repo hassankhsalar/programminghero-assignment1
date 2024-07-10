@@ -54,16 +54,27 @@ text-align: center;
 }
 
 /* button styles */
-    .btn-contact{
-    background-color: #ffffff;
-    color: rgba(13, 19, 33, 0.7);
+
+.banner-container .banner-contents .btn-contact{
+
+    background: rgb(13, 19, 33);
+    width: 208px;
+    height: 66px;
+    align-items: center;
+    padding: 21px 24px 21px 24px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 600;
-    text-align: center;
-    border: 1px solid black;
-    width: 150px;
+
+}
+
+.btn-point{
+    width: 149px;
     height: 48px;
 }
+
+
 
 /* form 2 styles */
 .form-2-container{
@@ -75,18 +86,18 @@ text-align: center;
    margin-right: 150px;
    margin-top: 74px;
    height: 1395px;
-   border: 2px solid red;
+   /* border: 2px solid red; */
 }
 
 .form-2-contents{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     font-family: Azeret Mono;
 }
 
 .form-2-title{
     padding: 80px 97px;
     
-    border: 2px solid rgb(15, 0, 82);
+    /* border: 2px solid rgb(15, 0, 82); */
 }
 
 .form-2-header{
@@ -97,7 +108,7 @@ text-align: center;
     letter-spacing: 0%;
     text-align: center;
     margin: 24px 0px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 
 }
 .form-2-description{
@@ -106,7 +117,7 @@ text-align: center;
     font-weight: 400;
     line-height: 26px;
     text-align: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .form-point-1{
@@ -135,7 +146,7 @@ text-align: center;
 
 .form-point-1{
     width: 1400px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .form-point-1-text { 
@@ -162,7 +173,7 @@ text-align: center;
 
 .form-point-2{
     width: 1400px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -200,7 +211,7 @@ text-align: center;
 
 .form-point-3{
     width: 1400px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -227,5 +238,38 @@ text-align: center;
 .form-point-3-image{
     
     padding: 48px 0px 0px 0px;
+
+}
+
+/* form-3 styles */
+
+.form-3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+}
+
+.form-3-header{
+    margin-top: 90px;
+    padding: 16px;
+    width: 852px;
+    height: 39px;
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.form-3-description{
+    padding: 16px;
+    width: 852px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.form-3-video{
+    margin-top: 20px;
 
 }
